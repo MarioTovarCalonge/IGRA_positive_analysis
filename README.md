@@ -11,7 +11,7 @@ System requirements:
 Once R and gcc are available, no explicit installation, or special hardware is needed. When running the master script as described below, C codes will be compiled as external libraries. If R packages are not installed, please install them manually.
 
 Please note that:
--Outputs and F_outputs should be uncompressed in order to provide the code the needed folder structure to save results.
+-Outputs should be uncompressed in order to provide the code the needed folder structure to save results.
 
 ##########################################################################################
 

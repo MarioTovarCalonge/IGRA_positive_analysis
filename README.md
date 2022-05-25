@@ -6,7 +6,9 @@ Outputs should be uncompress in order to provide the code the needed folder stru
 System requirements:
 
 -GCC (checked with Apple clang version 12.0.5 (clang-1205.0.22.9))
+
 -R (checked with R version 3.6.3 (2022-05-25))
+
 -R packages fanplot, ggplot, gridExtra, kDensity and KernSmooth.
 
 Once R and gcc are available, no explicit installation, or special hardware is needed. When running the master script as described below, C codes will be compiled as external libraries. If R packages are not installed, please install them manually.

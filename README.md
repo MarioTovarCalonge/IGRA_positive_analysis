@@ -1,8 +1,5 @@
 # IGRA_positive_analysis
 
-MLE_test.R runs the main simulations of the model.
-Outputs should be uncompress in order to provide the code the needed folder structure to save results.
-
 System requirements:
 
 -GCC (checked with Apple clang version 12.0.5 (clang-1205.0.22.9))

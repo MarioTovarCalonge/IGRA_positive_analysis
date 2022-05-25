@@ -201,21 +201,6 @@ void start_sto_sim(double *AG_C_SA, double *AG_V_SA, double *AG_C_K, double *AG_
         rho = ( 0.803813*D_v_age[0] + 0.1506765*D_v_age[1] + 0.04551046*D_v_age[2] )/(0.808178*D_c_age[0] + 0.1491281*D_c_age[1] + 0.04269393*D_c_age[2])  *  ((double)Ncontrol)/((double)Nvaccine);
         //printf("%lf\n", rho);
         VEdis[j] = 100*(1.0 - rho);
-        
-        efs_con[j] = 0.808178*F_con[0] + 0.1491281*F_con[1] + 0.04269393*F_con[2];
-        efs_vac[j] = 0.803813*F_vac[0] + 0.1506765*F_vac[1] + 0.04551046*F_vac[2];
-        
-        //VEdis[j] = 100*(1.0 - (double)aux_D_v/(double)aux_D_c);
-        //VEdis[j] = 100*(1.0 - D_v_age/D_c_age);
-    }
-    
-    if(*mode==1){
-        sprintf(aux, "F_outputs/file_%.3lf.txt", *epsilon);
-        f = fopen(aux, "wt");
-        for(j=0; j<N_trials; j++){
-            fprintf(f, "%lf %lf\n", efs_con[j], efs_vac[j]);
-        }
-        fclose(f);
     }
     
     //--------------------------------------------------------------------------//

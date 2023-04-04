@@ -6,7 +6,7 @@ System requirements:
 
 -R (checked with R version 3.6.3 (2022-05-25))
 
--R packages: "ggplot2", "cowplot", "fanplot", "gridExtra", "kdensity", "KernSmooth", "viridis", "truncnorm", "minpack.lm", "nlsr", "iterators", "foreach", "doParallel", "dplyr".
+-R packages: "ggplot2", "cowplot", "fanplot", "gridExtra", "kdensity", "KernSmooth", "viridis", "truncnorm", "minpack.lm", "nlsr (2019 version)", "iterators", "foreach", "doParallel", "dplyr".
 
 Once R and gcc are available, no explicit installation, or special hardware is needed. When running the master scripts provided, C codes will be compiled as external libraries. R libraries will be installed automatically, although installation success depends upon R's version. If R packages are not installed this way, please install them manually.
 
